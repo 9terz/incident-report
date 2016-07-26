@@ -2,6 +2,7 @@
 
 let express = require('express');
 let app = express();
+
 app.set('view engine', 'pug'); // register the template engine
 
 let morgan = require('morgan');

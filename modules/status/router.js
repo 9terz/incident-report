@@ -12,7 +12,8 @@ router.get('/', function (req, res) {
     }
     res.render('index', {
       title: 'Hey',
-      board: lists,
+      message: 'Yoyoyo',
+      board: lists
     })
   });
 });
