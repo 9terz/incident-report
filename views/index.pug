@@ -4,4 +4,7 @@ html
   body
     h1= message
     each item in board
-     li= item.name
+     li= item.name + ' '
+     each card in item.cards
+      each labels in card.labels
+        ul= labels.name

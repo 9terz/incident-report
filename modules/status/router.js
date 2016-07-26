@@ -6,7 +6,7 @@ let router = express.Router();
 let StatusController = require('./controller');
 
 router.get('/', function (req, res) {
-  StatusController.GetLists((err,lists) => {
+  StatusController.GetLists((err, lists) => {
     if (err) {
       return res.send('error');
     }
