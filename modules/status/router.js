@@ -12,7 +12,7 @@ router.get('/', function (req, res) {
     }
     res.render('index', {
       title: 'Hey',
-      message: 'Yoyoyo',
+      message: 'REG CMU Service Status',
       board: lists
     })
   });

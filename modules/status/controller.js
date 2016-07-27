@@ -20,6 +20,9 @@ let GetLists = (callback) => {
     },
     json: true
   }, function (error, response, body) {
+    body.map((lists) => {
+      lists.cards = lists.cards.reverse() ;
+    });
     callback(error, body);
   });
 }
