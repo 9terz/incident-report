@@ -11,7 +11,7 @@ router.get('/', function (req, res) {
       return res.send('error');
     }
     res.render('index', {
-      title: 'Hey',
+      title: 'REG CMU Service Status',
       message: 'REG CMU Service Status',
       board: lists
     })
