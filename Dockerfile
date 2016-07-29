@@ -1,6 +1,6 @@
 FROM node:6
 
-MKDIR /usr/app
+RUN mkdir /usr/app
 COPY * /usr/app/
 WORKDIR /usr/app
 
