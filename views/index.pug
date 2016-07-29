@@ -23,3 +23,6 @@ html
         span(class='label label-danger' style='float: right')= item.cards[0].labels[0].name
     br
     a(href="#") View incident reports
+        if(item.cards.length>0)
+        else
+          span(class='label label-default' style='float: right') Undefined
